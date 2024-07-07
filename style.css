@@ -102,13 +102,23 @@ a {
     padding: 20px 0;
 }
 
-@media (max-width: 600px)
+@media only screen and (max-width: 600px)
 {
     .skills{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         
+    }
+
+    .middle_container>p{
+        width: 50%;
+        margin: auto;
+    
+    }
+    .skills p{
+        width: 60%;
+        margin-left: 20%;
     }
 
 }
