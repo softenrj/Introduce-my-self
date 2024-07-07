@@ -3,7 +3,9 @@
     background-color: #e4f9f5;
     position: relative;
     padding-top: 100px;
+    width: 100%;
 }
+
 .top-cloud {
     position: absolute;
     right: 300px;
@@ -119,6 +121,19 @@ a {
     .skills p{
         width: 60%;
         margin-left: 20%;
+    }
+    .mountain{
+        width: 350px;
+    }
+    .top-cloud {
+        position: absolute;
+        right: 300px;
+        top: 100px;
+    }
+    .bottom-cloud {
+        position: absolute;
+        left: 250px;
+        bottom: 140px;
     }
 
 }
