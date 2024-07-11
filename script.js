@@ -1,6 +1,6 @@
 let text=document.querySelector(".title-text p");
 let blinker=document.querySelector(".txt_eff span")
-let a=["programmer.","developer.. "];
+let a=["programmer.","developer. "];
 window.onload=()=>{
     function text_forword(i,j){
         if(j<a[i].length){
