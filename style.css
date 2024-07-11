@@ -65,10 +65,10 @@ hr {
     width: 4%;
     margin: 100px auto;
 }
-h2{
+p,span{
     color: #6dcccc;
     font-family: "Montserrat", sans-serif;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: normal;
     padding-bottom: 10px;
 }
@@ -138,3 +138,20 @@ a {
 
 }
 
+.txt_eff{
+    display: flex;
+    justify-content: center;
+    
+}
+.txt_eff .blink{
+    animation: 1.5s infinite blink_eff;
+}
+
+@keyframes  blink_eff{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
