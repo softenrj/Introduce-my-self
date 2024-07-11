@@ -65,10 +65,17 @@ hr {
     width: 4%;
     margin: 100px auto;
 }
-p,span{
+.txt_eff p,span{
     color: #6dcccc;
     font-family: "Montserrat", sans-serif;
     font-size: 3rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h2{
+    color: #6dcccc;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
     font-weight: normal;
     padding-bottom: 10px;
 }
